@@ -4,14 +4,141 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Domain</title>
+    <title>James Foday | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #005792;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+        }
+
+        .section h2 {
+            color: #005792;
+            border-bottom: 2px solid #005792;
+            padding-bottom: 0.5rem;
+        }
+
+        .screenshot {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        .screenshot img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+
+        .links a {
+            color: #005792;
+            display: block;
+            margin: 0.5rem 0;
+            word-break: break-word;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            background: #eee;
+        }
+    </style>
 </head>
 
 <body>
-    <p>
-        My name is jamesfoday and I own this domain. Contact me at
-        <a href="jamesfodayofficail@gmail.com">YOUR_EMAIL</a>.
-    </p>
+    <header>
+        <h1>James Foday</h1>
+        <p>Web Developer | Full-Stack JavaScript | React & Node</p>
+    </header>
+    <div class="content">
+
+        <div class="section">
+            <h2>Project: Meet App</h2>
+            <p>
+                The <strong>Meet App</strong> is a progressive web application (PWA) that allows users to find tech
+                events in their city. It includes dynamic data visualizations, offline support, and filtering
+                functionality to enhance the user experience. The app is built with a test-driven development (TDD)
+                approach and fully utilizes React, Recharts, and Google Calendar API integrations.
+            </p>
+
+            <div class="screenshot">
+                <img src="scmeet.png" alt="Meet App Screenshot">
+            </div>
+
+            <h3>Project Objective</h3>
+            <p>
+                To create a user-friendly event planner that integrates with Google Calendar, allows event filtering by
+                city and number, and visualizes data interactively. The app is fully responsive and supports offline
+                functionality.
+            </p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Google Calendar OAuth integration</li>
+                <li>Dynamic event list based on city and number of events</li>
+                <li>Interactive Recharts Pie and Scatterplots</li>
+                <li>Offline support via service workers</li>
+                <li>LocalStorage caching of event data</li>
+                <li>Fully tested with Jest, Testing Library, and BDD with Cucumber</li>
+            </ul>
+
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>React.js</li>
+                <li>Recharts</li>
+                <li>Google Calendar API</li>
+                <li>Jest & React Testing Library</li>
+                <li>Cucumber (BDD)</li>
+                <li>Vite</li>
+                <li>AWS Lambda (Serverless Functions)</li>
+                <li>Git & GitHub Pages</li>
+            </ul>
+
+            <div class="links">
+                <h3>Project Links</h3>
+                <a href="https://meet-eight-eta.vercel.app/" target="_blank">Live App: meet-eight-eta.vercel.app</a>
+                <a href="https://github.com/jamesfoday/meet" target="_blank">GitHub Repository:
+                    github.com/jamesfoday/meet</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I’m James Foday, a passionate full-stack JavaScript developer focused on building performant,
+                user-centered applications. With strong experience in React, Node.js, and modern development tools, I
+                enjoy turning complex ideas into elegant digital experiences.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 James Foday — Portfolio
+    </footer>
 </body>
 
 </html>
